@@ -1,0 +1,6 @@
+what is Jest Framework ?
+Jest is a delightfull javascript Testing Framework with a focus on simplicity.
+
+Why Jest Framework is better for javascript Testing 
+
+Zero config 

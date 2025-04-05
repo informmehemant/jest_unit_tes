@@ -9,5 +9,8 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'unit-test';
+  title = 'AngularJestSetup';
+  sum(a: number, b: number ) {
+    return a + b;
+  }
 }
