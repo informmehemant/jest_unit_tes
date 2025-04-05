@@ -75,4 +75,11 @@ describe('MatchersComponent', () => {
   expect(shoppingList).toContain('milk');
   expect(new Set(shoppingList)).toContain('milk')
  })
+
+ it('compiling android goes as expected',() =>{
+  expect(() => component.compileAndroidCode()).toThrow();
+  expect(() => component.compileAndroidCode()).toThrow(Error);
+
+
+ })
 });
