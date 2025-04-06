@@ -9,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class MatchersComponent {
 
+  compileAndroidCode() {
+    throw new Error ('you are using Old Angular')
+  }
+
 }
